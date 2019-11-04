@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Delius&display=swap" rel="stylesheet">
+
+
+  <title>Zocalo</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__subnav">
+      <ul class="header__subnav--list">
+        <li class="header__subnav--list-item"><a href="#" target="_blank">Stockholm</a></li>
+        <li class="header__subnav--list-item"><a href="#" target="_blank">Göteborg</a></li>
+        <li class="header__subnav--list-item"><a href="#" target="_blank">Malmö</a></li>
+        <li class="header__subnav--list-item"><a href="#" target="_blank">Köpenhamn</a></li>
+        <li class="header__subnav--list-item"><a href="#" target="_blank">Uppsala</a></li>
+        <li class="header__subnav--list-item"><a href="#" target="_blank">Karlstad</a></li>
+      </ul>
+    </div>
+
+    <div class="header__mainnav">
+      <a href="#">
+        <img src="./img/logo.png" alt="Zocalo-logo" class="header__mainnav--logo">
+      </a>
+      <ul class="header__mainnav--list">
+        <li class="header__mainnav--list-item header__mainnav--active"><a href="#" target="_blank">Meny</a></li>
+        <li class="header__mainnav--list-item"><a href="#" target="_blank">Om Vår mat</a></li>
+        <li class="header__mainnav--list-item"><a href="#" target="_blank">Hållbarhet</a></li>
+        <li class="header__mainnav--list-item"><a href="#" target="_blank">Kontakta Oss</a></li>
+        <li class="header__mainnav--list-item"><a href="#" target="_blank">Om Zocalo</a></li>
+      </ul>
+    </div>
+
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left carousel__button--is-hidden">
+        <img src="./img/svg/arrow-left.svg" alt="">
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="./img/slide-1.jpg" alt="">
+            <div class="carousel__content--first">
+              <h1>Mysig, fräsch och Nyttig.</h1>
+              <p>Vi serverar hälsosam mat som vi lagar från grunden med focus på kvalité</p>
+              <div class="carousel__content--first--button-container">
+                <div class="carousel__content--first-button">hitta Resturang</div>
+                <div class="carousel__content--first-button">Meny</div>
+              </div>
+            </div>
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./img/slide-2.jpg" alt="">
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./img/slide-3.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="./img/svg/arrow-right.svg" alt="">
+      </button>
+
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main__menu">
+      <div class="main__menu--1">
+        <img src="./img/menu-1.jpg" alt="">
+        <span>Drickor</span>
+      </div>
+      <div class="main__menu--2">
+        <img src="./img/menu-2.jpg" alt="">
+        <span>Dessert</span>
+      </div>
+      <div class="main__menu--3">
+        <img src="./img/menu-3.jpg" alt="">
+        <span>Grill</span>
+      </div>
+      <div class="main__menu--4">
+        <img src="./img/menu-4.jpg" alt="">
+        <span>Tacos</span>
+      </div>
+      <div class="main__menu--5">
+        <img src="./img/menu-5.jpg" alt="">
+        <span>Bowl</span>
+      </div>
+      <div class="main__menu--6">
+        <img src="./img/menu-6.jpg" alt="">
+        <span>Speciell</span>
+      </div>
+      <div class="main__menu--7">
+        <img src="./img/menu-7.jpg" alt="">
+        <span>Burrito</span>
+      </div>
+      <div class="main__menu--8">
+        <img src="./img/menu-8.jpg" alt="">
+        <span>Barn Meny</span>
+      </div>
+    </div>
+
+    <div class="main__delivery">
+      <h3>Nu kan du beställa till Dörren</h3>
+      <div class="main__delivery--img-container">
+        <img src="./img/delivery-1.jpg" alt="">
+        <img src="./img/delivery-2.jpg" alt="">
+        <img src="./img/delivery-3.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="main__tips">
+      <div class="main__tips--img">
+        <p>månadens tips</p>
+        <div class="main__tips--button">mer Info</div>
+      </div>
+    </div>
+
+    <div class="main__book">
+      <div class="main__book--container">
+        <img src="./img/book-img.jpg" alt="">
+        <div class="main__book--content">
+          <h3>boka Bord</h3>
+          <form action="#" method="post">
+            <label for="">
+              resturang:
+              <select name="" id="">
+                <option value="Gmdlks">Stockholm, Klarabergsgatan 29</option>
+                <option value="Gmdlks">Stockholm, Regeringsgatan 20</option>
+                <option value="Gmdlks">Stockholm, Kungsgatan 25</option>
+                <option value="Gmdlks">Stockholm, Kungsgatan 44</option>
+                <option value="Gmdlks">Stockholm, Mall of Scandinavia</option>
+                <option value="Gmdlks">Göteborg, Nordstan</option>
+                <option value="Gmdlks">Göteborg, Frölunda Torg</option>
+                <option value="Gmdlks">Mölndal, Mölndals Galleria</option>
+                <option value="Gmdlks">Kungälv, Kongahälla</option>
+                <option value="Gmdlks">Malmö, Södergatan 3</option>
+                <option value="Gmdlks">Uppsala, Svava Galleria</option>
+                <option value="Gmdlks">Karlstad, Drottninggatan 22</option>
+                <option value="Gmdlks">Köpenhamn, Tivoli Food Hall</option>
+              </select><br>
+            </label>
+            <label for="">datum:
+              <input type="date" value="2017-06-01T08:30" name="" id="" max="2019-12-31"><br></label>
+            <label for=""> Tid:
+              <input type="time" name="" id=""><br></label>
+            <label for=""> full Namn:
+              <input type="text" name="" id=""><br></label>
+            <label for="">antal Pers:
+              <input type="number" name="" id=""><br></label>
+            <label for="">e-Mail:
+              <input type="email" name="" id=""><br></label>
+            <label for="">Mobil:
+              <input type="tel" name="" id=""><br></label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__app">
+        <h3>ladda Ner Appen</h3>
+        <img src="./img/app-img.jpg" alt="">
+      </div>
+      <div class="footer__content">
+        <ul class="footer__content--list">
+          <li class="footer__content--list-item"><a href="">meny</a></li>
+          <li class="footer__content--list-item"><a href="">hitta Resturang</a></li>
+          <li class="footer__content--list-item"><a href="">vår Mat</a></li>
+          <li class="footer__content--list-item"><a href="">jobb</a></li>
+          <li class="footer__content--list-item"><a href="">om Zócalo</a></li>
+        </ul>
+        <div class="footer__content--text">
+          <span>iden till Zócalo</span>
+          <p>började vakna hos oss när vi som nybakade studenter åkte runt med ryggsäcken i Sydamerika. Vi var båda två
+            utbytesstudenter där i trakten och en av oss bodde också en tid i Mexico där han föll totalt för det
+            mexikanska köket.</p>
+          <div class="footer__content--button">läs Mer</div>
+        </div>
+      </div>
+    </div>
+    <p>© 2019 Zócalo – Fresh Happy Mex All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/carousel.js"></script>
+</body>
+
+</html>
